@@ -1,3 +1,43 @@
-*{
-    color: blueviolet;
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    background-color: #f4f4f4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: #e67e22;
+    text-decoration: underline;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+}
+ol{
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+a{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    background: #333;
+    padding: 10px;
+    text-decoration: none;
+}
+h2, h3{
+    text-decoration: underline;
+    margin-left: 15px;
+}
+img{
+        float: right;
 }
