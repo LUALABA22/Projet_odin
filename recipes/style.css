@@ -37,6 +37,7 @@ a{
 h2, h3{
     text-decoration: underline;
     margin-left: 15px;
+    color:coral;
 }
 img{
         float: right;
