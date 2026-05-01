@@ -33,6 +33,7 @@ a{
     background: #333;
     padding: 10px;
     text-decoration: none;
+    transition: 0.5s;
 }
 h2, h3{
     text-decoration: underline;
@@ -41,4 +42,8 @@ h2, h3{
 }
 img{
         float: right;
+}
+a:hover{
+    color:coral;
+    transform: scale(1.1);
 }
